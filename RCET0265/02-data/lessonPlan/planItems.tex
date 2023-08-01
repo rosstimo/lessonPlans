@@ -1,0 +1,188 @@
+\documentclass[main.tex]{subfiles}
+%%----- Preamble specific to this subfile only. This will be used when this document is compiled on its own. When the main document compiles this preabble is ignored. 
+\usepackage{listings}
+%%--------------------------------------------------------------------------%
+\begin{document}
+\section*{Lesson Plan}
+
+%%\item-----   New command for lesson plan item entries
+\begin{comment}
+  %Example:
+  
+  \planItem{5}                %time in minutes
+  {Introduction}              % title/name of lesson plan item
+  {lesson notes and content}  % this can be a paragraph or a list
+  {url}                       % link(s) to resources
+
+\end{comment}
+
+\planItem{10}
+{Define and identify Variables}
+{ \begin{itemize}
+  \item Introduction to the concept of variables.
+  \item Discussion on the purpose and use of variables in programming.
+  \item Demonstration: How to declare and use variables in VB.NET.
+  \item Practice Activity: Students will write code to declare and use variables.
+  \item Assessment: Students will identify variables in given code snippets and explain their purpose.
+\end{itemize}
+}
+{}
+
+\planItem{10}
+{Understand and use Data Types}
+{ \begin{itemize}
+  \item Introduction to the concept of data types.
+  \item Explanation of the main data types in VB.NET - Integer, Double, String, Boolean.
+  \item Demonstration: How to declare variables of different data types and assign them values.
+  \item Practice Activity: Students will write code using different data types.
+  \item Assessment: Students will write code that declares and uses variables of each data type, explaining their choices.
+\end{itemize}
+}
+{}
+
+\planItem{10}
+{Assign values to Variables}
+{ \begin{itemize}
+  \item Discussion on assigning and changing variable values.
+  \item Demonstration: Assigning values to variables and using them in simple mathematical operations.
+  \item Practice Activity: Students will write code to assign values to variables and modify them.
+  \item Assessment: Students will be given code where they will assign values to variables and explain their choices.
+\end{itemize}
+}
+{}
+
+\planItem{10}
+{Declare and use Constants}
+{ \begin{itemize}
+  \item Introduction to the concept of constants and when to use them.
+  \item Demonstration: Declaring and using constants in VB.NET.
+  \item Practice Activity: Students will write code using constants.
+  \item Assessment: Students will write code to declare and use a constant, explaining their choice of when to use the constant.
+\end{itemize}
+}
+{}
+
+\planItem{10}
+{Apply Variable Naming Conventions}
+{ \begin{itemize}
+  \item Discussion on VB.NET naming conventions for variables and constants.
+  \item Demonstration: Correct and incorrect examples of variable and constant names.
+  \item Practice Activity: Students will write code applying correct naming conventions.
+  \item Assessment: Students will correct improperly named variables in given code, conforming to VB.NET naming conventions.
+\end{itemize}
+}
+{}
+
+\planItem{10}
+{Perform Type Conversion}
+{ \begin{itemize}
+  \item Explanation of the need for type conversions.
+  \item Demonstration: Performing explicit and implicit type conversions in VB.NET.
+  \item Option Strict On
+  \item Demonstration: Performing explicit and implicit type conversions with Option Strict On
+  \item Practice Activity: Students will write code to convert between different data types.
+  \item Assessment: Students will write a program that involves type conversions and explain why each was necessary. 
+\end{itemize}
+}
+{}
+%
+\planItem{5}
+{test}
+{
+% {  \begin{figure}[h!]
+    % \centering
+    % \begin{lstlisting}[language=VBScript]
+  % \verb+Dim doubleNumber As Double = 10.5 \\
+  % \verb+Dim integerNumber As Integer \\
+  % \verb+integerNumber = CType(doubleNumber, Integer) `Explicit conversion from Double to Integer, fractional part will be truncated  \\
+    % \end{lstlisting}
+  % \end{figure}
+  % \texttt{ 
+  %         Dim integerNumber As Integer = 10 \\
+  %         Dim doubleNumber As Double \\
+  %         doubleNumber = integerNumber  'Implicit conversion from Integer to Double 
+  %         }
+}
+{}
+% \planItem{5}
+% {Perform Type Conversion}
+% { 
+% \begin{itemize}
+%   \item Implicit Conversion: \\
+%   \texttt{ 
+%           Dim integerNumber As Integer = 10 \\
+%           Dim doubleNumber As Double \\
+%           doubleNumber = integerNumber  'Implicit conversion from Integer to Double \\
+%         }
+%   \item Explicit Conversion:
+% \end{itemize}
+%     \begin{lstlisting}[language=VBScript]
+%     %         Dim doubleNumber As Double = 10.5
+%     %         Dim integerNumber As Integer
+%     %         integerNumber = CType(doubleNumber, Integer)  'Explicit conversion from Double to Integer, fractional part will be truncated
+%     \end{lstlisting}
+% }  
+% {}
+%
+\begin{comment}
+Sure, here are the lesson plan sections for each of the learning objectives you mentioned:
+
+For each section, the lesson will start with a brief introduction, followed by a demonstration, then a practice activity, and will conclude with an assessment to ensure understanding. Feedback will be provided throughout to ensure students are grasping the concepts.
+Absolutely, here are code examples for each of the learning objectives:
+
+1\planItem{5}
+{Define and identify Variables}
+{ \begin{itemize}
+   \item Declaration: `Dim name As String`
+   \item Use: `name = "John Doe"`
+
+2\planItem{5}
+{Understand and use Data Types}
+{ \begin{itemize}
+   \item Integer: `Dim age As Integer = 30`
+   \item Double: `Dim average As Double = 85.6`
+   \item String: `Dim greeting As String = "Hello"`
+   \item Boolean: `Dim isReady As Boolean = True`
+
+3\planItem{5}
+{Assign values to Variables}
+{ \begin{itemize}
+   \item `Dim count As Integer`
+   \item `count = 10`  'Assigning a value to the variable
+   \item `count = count + 1`  'Changing the value of the variable
+
+4\planItem{5}
+{Declare and use Constants}
+{ \begin{itemize}
+   \item Declaration and use: 
+     ```vbnet
+     Const PI As Double = 3.14159
+     Dim radius As Double = 2.5
+     Dim area As Double = PI * radius * radius
+     ```
+
+5\planItem{5}
+{Apply Variable Naming Conventions}
+{ \begin{itemize}
+   \item Good practice: `Dim firstName As String`
+   \item Bad practice: `Dim firstname As String` or `Dim first_name As String`
+
+\planItem{5}
+{Perform Type Conversion}
+{ \begin{itemize}
+   \item Implicit Conversion:
+     ```vbnet
+     Dim integerNumber As Integer = 10
+     Dim doubleNumber As Double
+     doubleNumber = integerNumber  'Implicit conversion from Integer to Double
+     ```
+   \item Explicit Conversion:
+     ```vbnet
+     Dim doubleNumber As Double = 10.5
+     Dim integerNumber As Integer
+     integerNumber = CType(doubleNumber, Integer)  'Explicit conversion from Double to Integer, fractional part will be truncated
+     ```
+   
+These examples illustrate the basic usage of variables, data types, constants, naming conventions, and type conversions in VB.NET. You can use these examples as a starting point and modify them to fit your specific lesson plan needs.
+\end{comment}
+\end{document}
